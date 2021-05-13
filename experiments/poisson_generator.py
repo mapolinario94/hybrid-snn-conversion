@@ -15,6 +15,7 @@ x_input = x_input[1, 0, :, :]
 out_1 = torch.zeros_like(x_input)
 out_2 = torch.zeros_like(x_input)
 
+
 y = np.zeros(64)
 for k in range(64):
     plt.subplot(131)
